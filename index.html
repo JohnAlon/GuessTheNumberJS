@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Guess the Number</title>
+</head>
+<body>
+    <header><h1>Guess the Number</h1></header>
+    <div class="form">
+        <span>Max number: </span>
+        <input type="text" id="max">
+        <br>
+        <span>Your number: </span>
+        <input type="text" id="usrNum"><br>
+        <a href="#" onclick="guess()">Play</a><br>
+        <p>Generated number: </p>
+        <h2 id="generated">0</h2>
+        <h5 id="result"></h5>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
